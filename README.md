@@ -75,19 +75,19 @@ The **Attendance Management System** is a Python application developed primarily
 
 Here are some screenshots of the application:
 
-![Calendar](images/Calendar.png)  
+![Calendar](https://github.com/user-attachments/assets/70a0c756-b04e-4357-b5ae-ed6d0bb11222)
 *Calendar view*
 
-![Daily Attendance](images/Daily_Attendance.png)  
+![Daily_Attendance](https://github.com/user-attachments/assets/19ee4841-c008-4a23-8f52-26a7e3b82ffb)
 *Interface for recording daily attendance*
 
-![Attendance Statistics](images/Attendance_Statistics.png)  
+![Attendance_Statistics](https://github.com/user-attachments/assets/f98fedc1-ee38-4eb0-8d0e-3ccff5afd97d)
 *representation of attendance statistics*
 
-![Edit Routine](images/editRoutine.png)  
+![editRoutine](https://github.com/user-attachments/assets/bcf0cae3-e2b8-4a55-8faa-bf812b11dd46)
 *Editing and managing class routines*
 
-[Video](https://www.youtube.com/watch?v=bKb0GZDhyTE)  
+[Video](https://drive.google.com/file/d/1qTP7AbPbologRRTQI02N9qRgHA1sdusA/view?usp=sharing)  
 *Demo video of the Attendance Management System*
 
 ## Database Schema
