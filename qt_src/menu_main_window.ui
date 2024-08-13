@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>766</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: rgb(163, 255, 137);
+}
+
+QMenuBar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+QMenuBar::item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+}
+
+QMenuBar::item:selected {
+    background-color: #558b2f;
+}
+
+QMenu::item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #558b2f;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>766</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>HOME</string>
+    </property>
+    <addaction name="actionHOME"/>
+   </widget>
+   <widget class="QMenu" name="menuGET_DATA">
+    <property name="title">
+     <string>GET DATA</string>
+    </property>
+    <addaction name="actionASV"/>
+    <addaction name="actionAV"/>
+    <addaction name="separator"/>
+    <addaction name="actionDAILY_ATTENDANCE"/>
+   </widget>
+   <widget class="QMenu" name="menuSECTINGS">
+    <property name="title">
+     <string>SECTINGS</string>
+    </property>
+    <addaction name="actionNEW_ROUTINE"/>
+    <addaction name="actionEDIT_ROUTINE"/>
+    <addaction name="separator"/>
+    <addaction name="actionEDIT_DATABASE"/>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuGET_DATA"/>
+   <addaction name="menuSECTINGS"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionASV">
+   <property name="text">
+    <string>ASV</string>
+   </property>
+  </action>
+  <action name="actionAV">
+   <property name="text">
+    <string>AV</string>
+   </property>
+  </action>
+  <action name="actionDAILY_ATTENDANCE">
+   <property name="text">
+    <string>DAILY ATTENDANCE</string>
+   </property>
+  </action>
+  <action name="actionNEW_ROUTINE">
+   <property name="text">
+    <string>NEW ROUTINE</string>
+   </property>
+  </action>
+  <action name="actionEDIT_ROUTINE">
+   <property name="text">
+    <string>EDIT ROUTINE</string>
+   </property>
+  </action>
+  <action name="actionEDIT_DATABASE">
+   <property name="text">
+    <string>EDIT DATABASE</string>
+   </property>
+  </action>
+  <action name="actionHOME">
+   <property name="text">
+    <string>HOME</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
